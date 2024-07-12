@@ -21,8 +21,9 @@ https://github.com/user-attachments/assets/c1b2bee0-59e9-4a63-bc8f-71db247ff93a
 
 Connecter l'ESP32-cam au PC et lancer WifiConnect dans le shell Thonny pour afficher l'adresse IP  de l'ESP32-cam :
 
-```>>> from WifiConnect import WifiConnect
-   >>> WifiConnect()
+```
+>>> from WifiConnect import WifiConnect
+>>> WifiConnect()
 ```
 
 à la fin du fichier _main.py_ , ajouter la ligne : ```from fpv_car import *```
